@@ -1,0 +1,25 @@
+.pdf-upload {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    /* align-items: center;   */
+    max-height: 100vh; /* Adjust according to your requirements */
+    height: 40vh;
+}
+
+.container {
+    text-align: center;
+    margin-top: 2%;
+    padding: 2%;
+    max-width: 400px; /* Adjust according to your requirements */
+    width: 100%;
+    height: 50%;
+    border: 1px solid grey;
+}
+
+.form-group {
+    margin-bottom: 10px; /* Adjust according to your requirements */
+}
+
+.form-control {
+    width: calc(100% - 20px); /* Adjust padding */
+}

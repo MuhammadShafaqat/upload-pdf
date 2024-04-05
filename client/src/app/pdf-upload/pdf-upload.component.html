@@ -1,0 +1,45 @@
+<div class="pdf-upload">
+    <div class="container">
+    <form (ngSubmit)="formSubmit()">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Enter Title" [(ngModel)]="title"  name="title">
+      </div><br>
+      <div class="form-group">
+        <input type="file" class="form-control" (change)="onFileSelected($event)"  name="file">
+      </div><br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="pdf-upload">
+    <div class="container">
+    <form (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Enter Title" [(ngModel)]="title" name="title">
+      </div><br>
+      <div class="form-group">
+        <input type="file" class="form-control" (change)="onFileSelected($event)" name="file">
+      </div><br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
+   -->
